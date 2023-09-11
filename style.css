@@ -21,10 +21,14 @@ body{
 
 #IntroPicture{
     float: left;
-    width: 400px;
-    height: 300px;
+    width: 295px;
+    height: 389px;
 }
-
+        
 .reset{
     clear: both;
+}
+
+#HobbyContainer{
+    float: left;
 }
