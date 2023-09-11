@@ -14,3 +14,11 @@ body{
 #highlight{
     color: #00ffff;
 }
+
+#TextContainer {
+    width: 400px;
+}
+
+#IntroPicture{
+    float: left;
+}
