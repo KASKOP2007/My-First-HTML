@@ -9,6 +9,9 @@ body{
 }
 #naam{
     color: #00ff00;
+    float: left;
+    width: 604px;
+    height: 56px;
 }
 
 .highlight{
