@@ -4,14 +4,34 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+    
+
+#IntroPicture{
+    float: left;
+    width: 295px;
+    height: 389px;
+}
 #text{ 
-    color: #8a2be2;
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 #naam{
     color: #00ff00;
-    float: left;
+    display: flex;
+    padding: 15px 136px 16px 0px;
+    align-items: center;
     width: 604px;
     height: 56px;
+    flex-shrink: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .highlight{
@@ -20,15 +40,14 @@ body{
 }
 
 #TextContainer {
-    width: 400px;
-    float: left;
+    display: flex;
+    width: 740px;
+    height: 87px;
+    padding: 15px 136px 16px 0px;
+    align-items: center;
 }
 
-#IntroPicture{
-    float: left;
-    width: 295px;
-    height: 389px;
-}
+
         
 .reset{
     clear: both;
@@ -36,4 +55,27 @@ body{
 
 #HobbyContainer{
     float: left;
+    width: 268px;
+    height: 109px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#socialscontainer{
+    float: left;
+    width: 288px;
+    height: 130px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+#maincontainer{
+    width: 1050;
+}
+#background{
+    margin: auto;
 }
