@@ -4,7 +4,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-    
+#clickhere{
+    width:80px;
+    height: 20px;
+    color: #ff0000;
+    background-color: #00ffff;
+}
+
+#socialthumb {
+    float: left;
+}
 
 #IntroPicture{
     float: left;
@@ -12,66 +21,83 @@ body{
     height: 389px;
 }
 #text{ 
-    color: #000;
-    font-family: Inter;
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+#TextContainer {
+    margin: 0px 0px 0px 10px;
+    float: left;
+    width: 740px;
+    height: 87px;
+    padding: 15px 136px 16px 0px;
+}
+
 #naam{
+    margin: 0px 0px 0px 10px;
     color: #00ff00;
-    display: flex;
+    float: left;
     padding: 15px 136px 16px 0px;
     align-items: center;
     width: 604px;
     height: 56px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 40px;
 }
 
+#meme{
+    float: left;
+    margin-top: 10px;
+}
 .highlight{
     color: #00ffff;
     float: left;
 }
-
-#TextContainer {
-    display: flex;
-    width: 740px;
-    height: 87px;
-    padding: 15px 136px 16px 0px;
-    align-items: center;
+#fortnite{
+    float: left;
+    width: 739px;
+    height: 239px;
 }
 
-
+#fortnitecontainer{
+    padding-left: 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    width: 739px;
+    height: 239px;
+}
         
 .reset{
     clear: both;
 }
 
 #HobbyContainer{
+    padding-left: 20px;
     float: left;
     width: 268px;
     height: 109px;
-    color: #000;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-style: normal;;
 }
 
+#socials{
+    color: #ffffff;
+    margin-left: 20px;
+}
 #socialscontainer{
     float: left;
-    width: 288px;
-    height: 130px;
-    background: #D9D9D9;
+    width: 500px;
+    height: 109px;
 }
 #maincontainer{
     width: 1050;
+    margin: 0px 0px 0px 300px;
 }
 #background{
     margin: auto;
